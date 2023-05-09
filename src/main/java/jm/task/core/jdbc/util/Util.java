@@ -11,7 +11,6 @@ public class Util {
     public static final String DB_Password = "root";
     public static Connection connection;
 
-
     public static Connection getConnection() {
         try {
             Class.forName(DB_DRIVER);
